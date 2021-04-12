@@ -4,4 +4,11 @@ ROIs in this repo are used for a 2AFC classification task for discriminating bet
 20 mm<sub>A</sub>: ~eleven specks 150-180 um, 3 specks 212-250 um <br>
 20 mm<sub>B</sub>: ~eighteen specks 150-180 um, 3 specks 212-250 um <br>
 
-The number of total specks was scaled for 10 mm and 20 mm so as to keep the speck density approximately the same. The number of large specks was kept fixed to not tip off the reader.
+The number of total specks was scaled for 10 mm and 20 mm so as to keep the speck density approximately the same. The number of large specks was kept fixed to not tip off the reader. <br>
+
+Note: Due to the size restriction for uploaded files, some of the data needed to be split into parts after zipping. These will need to be merged prior to unzipping: <br>
+<br>
+```
+$ cat NaBrMC.tar.gz.part-? > NaBrMC.tar.gz
+$ gunzip NaBrMC.tar.gz
+```
